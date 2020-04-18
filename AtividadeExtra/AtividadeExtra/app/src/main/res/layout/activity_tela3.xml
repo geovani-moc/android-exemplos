@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    tools:context=".tela3"
+    android:orientation="vertical">
+
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:fillViewport="true">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Telefone 1" />
+
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/editTelefone1"
+              android:inputType="phone"/>
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Telefone 2" />
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:inputType="phone"
+              android:id="@+id/editTelefone2"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Email" />
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:inputType="textEmailAddress"
+              android:id="@+id/editEmail"/>
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Facebook" />
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/editFacebook"/>
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Instagram" />
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/editInstagram"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Twintter" />
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/editTwintter"/>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+              <Button
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="4"
+                  android:text="1"
+                  android:id="@+id/button1"
+                  android:onClick="irTela1"/>
+              <Button
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="4"
+                  android:text="2"
+                  android:id="@+id/button2"
+                  android:onClick="irTela2"/>
+              <Button
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="4"
+                  android:text="3"
+                  android:id="@+id/button3"
+                  android:clickable="false"
+                  android:backgroundTint="@color/colorPrimary"/>
+              <Button
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="4"
+                  android:text="ok"
+                  android:id="@+id/button4"
+                  android:onClick="irTela4"/>
+          </LinearLayout>
+
+      </LinearLayout>
+
+  </ScrollView>
+
+</LinearLayout>

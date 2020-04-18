@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button1stHandler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="st Handler"
+        android:onClick="ir1Handler"/>
+
+    <Button
+        android:id="@+id/buttonHendlerMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MyHandler + Message"
+        android:onClick="irhandleMessage"/>
+    <Button
+        android:id="@+id/buttonHandlerBundle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MyHandler + Bundle"
+        android:onClick="irHandlerBundle"/>
+
+    <Button
+        android:id="@+id/buttonAsyncTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ButtonAsyncTask"
+        android:onClick="irAsyncTask"/>
+
+    <Button
+        android:id="@+id/buttonSplashScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Splash Screen"
+        android:onClick="irSplashScreen"/>
+</LinearLayout>

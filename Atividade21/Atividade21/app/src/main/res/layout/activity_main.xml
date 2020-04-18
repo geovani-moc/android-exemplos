@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tela 01"
+                android:id="@+id/buttonTela01"
+                android:onClick="irTela01"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tela 02"
+                android:id="@+id/buttonTela02"
+                android:onClick="irTela02"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tela 03"
+                android:id="@+id/buttonTela03"
+                android:onClick="irTela03"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tela 04"
+                android:id="@+id/buttonTela04"
+                android:onClick="irTela04"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tela 05"
+                android:id="@+id/buttonTela05"
+                android:onClick="irTela05"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tela 06"
+                android:id="@+id/buttonTela06"
+                android:onClick="irTela06"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tela 07"
+                android:id="@+id/buttonTela07"
+                android:onClick="irTela07"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tela 08"
+                android:id="@+id/buttonTela08"
+                android:onClick="irTela08"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tela 09"
+                android:id="@+id/buttonTela09"
+                android:onClick="irTela09"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tela 10"
+                android:id="@+id/buttonTela10"
+                android:onClick="irTela10"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

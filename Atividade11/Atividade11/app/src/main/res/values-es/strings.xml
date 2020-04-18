@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Atividade11</string>
+    <string name="verificar">Cheque</string>
+    <string name="adivinhe">Adivina el número entre 1 y 10</string>
+    <string name="sair">Dejar</string>
+    <string name="parabens">Felicidades !! lo entendiste bien</string>
+    <string name="errou">Incorrecto, inténtalo de nuevo</string>
+    <string name="numeroSorteado">número sorteado:</string>
+    <string name="eSuaEscolha"> y tu elección:</string>
+</resources>

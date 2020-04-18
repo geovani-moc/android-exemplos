@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Atividade11</string>
+    <string name="verificar">Verificar</string>
+    <string name="adivinhe">Adivinhe o número entre 1 e 10</string>
+    <string name="sair">Sair</string>
+    <string name="parabens">Parabens!! você acertou</string>
+    <string name="errou">Errou, tente novamente</string>
+    <string name="numeroSorteado">numero sorteado:</string>
+    <string name="eSuaEscolha"> e sua escolha:</string>
+</resources>

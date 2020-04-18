@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">AtividadeExtra</string>
+    <string name="nome">Nome</string>
+    <string name="rg">RG</string>
+    <string name="cpf">CPF</string>
+    <string name="nascimento">Nascimento</string>
+    <string name="pagina1">1</string>
+    <string name="pagina2">2</string>
+    <string name="pagina3">3</string>
+    <string name="pagina4">ok</string>
+
+    <string-array name="TiposLogradouro">
+        <item>Aeroporto</item>
+        <item>Alameda</item>
+        <item>Área</item>
+        <item>Avenida</item>
+        <item>Campo</item>
+        <item>Chácara</item>
+        <item>Colônia</item>
+        <item>Condomínio</item>
+        <item>Conjunto</item>
+        <item>Distrito</item>
+        <item>Esplanada</item>
+        <item>Estação</item>
+        <item>Estrada</item>
+        <item>Favela</item>
+        <item>Feira</item>
+        <item>Jardim</item>
+        <item>Ladeira</item>
+        <item>Lago</item>
+        <item>Lagoa</item>
+        <item>Largo</item>
+        <item>Loteamento</item>
+        <item>Morro</item>
+        <item>Núcleo</item>
+        <item>Parque</item>
+        <item>Passarela</item>
+        <item>Pátio</item>
+        <item>Praça</item>
+        <item>Quadra</item>
+        <item>Recanto</item>
+        <item>Residencial</item>
+        <item>Rodovia</item>
+        <item>Rua</item>
+        <item>Setor</item>
+        <item>Sítio</item>
+        <item>Travessa</item>
+        <item>Trecho</item>
+        <item>Trevo</item>
+        <item>Vale</item>
+        <item>Vereda</item>
+        <item>Via</item>
+        <item>Viaduto</item>
+        <item>Viela</item>
+        <item>Vila</item>
+    </string-array>
+</resources>
